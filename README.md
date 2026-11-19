@@ -1,14 +1,19 @@
-# VIN Kitchen
+# VIN Kitchen Website
 
-Static independent cabinetry website for Bendigo, Echuca–Moama and Shepparton.
+Independent cabinetry-only marketing website for Bendigo, Echuca–Moama, Shepparton and surrounding areas.
 
-## Enquiry form
-The site uses a standard HTTPS POST to FormSubmit.co and sends submissions to `vinkitchencab@gmail.com` after mailbox activation. It includes a honeypot, default CAPTCHA, and reply-to customer email. The business owner must **submit one test enquiry and click the FormSubmit activation email** in Gmail before it can reliably receive customer leads. This has NOT been verified end-to-end. All customer form data are processed by FormSubmit.co, with a published retention period of 30 days for the submission archive.
+## Contacts
+- Phone: 0434 975 766
+- Email: vinkitchencab@gmail.com
+- Preview: https://buithinh2000.github.io/vin-kitchen-website/
 
-The business can also receive calls at 0434 975 766, and direct email at vinkitchencab@gmail.com.
+## Form setup — activation required
+The quote form posts to FormSubmit.co using `https://formsubmit.co/vinkitchencab@gmail.com`. Before it can receive real enquiries, the owner must send one test submission using the published form and confirm the FormSubmit activation link delivered to vinkitchencab@gmail.com. Only then test a second submission and confirm delivery. This step is not possible to verify from GitHub alone. There is no separate form database. The external form service processes visitor information.
 
-## Photography
-Hero image is a free-to-use Unsplash photograph of kitchen cabinetry: https://unsplash.com/photos/pQVP5QmskxM, GoodLifeConstruction, used for illustrative purposes, not a VIN Kitchen completed project. Replace with actual portfolio photos when available.
+The website always exposes direct click-to-call and mailto links as fallbacks.
 
-## Deployment
-GitHub Pages publishes from main branch root. `vinkitchen.cabinetosai.com` remains pending Cloudflare DNS configuration because the current Cloudflare connection reported invalid access token. Do not alter the CabinetOS host or DNS zones to set up this site.
+## Imagery
+The website uses illustrative Unsplash photography, not VIN Kitchen completed works. The external images have not been verified visually in a browser; replace them with real project photography when available. Hero image is a kitchen photograph from images.unsplash.com, not a general interior image.
+
+## Domain
+The desired host `vinkitchen.cabinetosai.com` is **not configured yet**. Cloudflare connector returned invalid token. DNS and Pages custom domain changes must be made together in a narrowly scoped update once authentication works, leaving CabinetOS itself unchanged.
