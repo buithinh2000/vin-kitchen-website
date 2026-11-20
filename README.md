@@ -1,19 +1,25 @@
-# VIN Kitchen Website
+# VIN Kitchen website
+Static GitHub Pages site promoting **cabinetry only** in Bendigo, Echuca–Moama and Shepparton.
 
-Independent cabinetry-only marketing website for Bendigo, Echuca–Moama, Shepparton and surrounding areas.
-
-## Contacts
+## Enquiries
 - Phone: 0434 975 766
-- Email: vinkitchencab@gmail.com
-- Preview: https://buithinh2000.github.io/vin-kitchen-website/
+- Direct email: vinkitchencab@gmail.com
+- Online form: https://formsubmit.co/vinkitchencab@gmail.com (FormSubmit third-party)
+- **ACTION REQUIRED**: FormSubmit requires an activation email to be confirmed for the destination mailbox. Please search Gmail *All Mail* and *Spam* for "FormSubmit" or "activation", confirm the link after submitting the first test, and send a second test. Until the owner confirms successful receipt, do not claim form delivery has been verified.
+- Email button provides an independent mailto fallback. No backend or database.
 
-## Form setup — activation required
-The quote form posts to FormSubmit.co using `https://formsubmit.co/vinkitchencab@gmail.com`. Before it can receive real enquiries, the owner must send one test submission using the published form and confirm the FormSubmit activation link delivered to vinkitchencab@gmail.com. Only then test a second submission and confirm delivery. This step is not possible to verify from GitHub alone. There is no separate form database. The external form service processes visitor information.
+## Website preview
+https://buithinh2000.github.io/vin-kitchen-website/
 
-The website always exposes direct click-to-call and mailto links as fallbacks.
+## Locked image mapping
+The 4 images in "What we do" are intentionally unique, subject-specific, illustrative Unsplash photography. They are **not VIN Kitchen project photos**:
+1. Custom Kitchen Cabinetry — `photo-1600489000022-c2086d79f9d4`
+2. Cabinet Door Replacements — `photo-1777027518628-e39374100fd4` — Unsplash by Liana S, close up of a cabinet door
+3. Laundry Cabinetry — `photo-1790926156246-67ec96893a21` — Unsplash by jason hu, laundry area with washing machine and cabinets
+4. Built-in Wardrobes — `photo-1778731660303-1fa5ede75477` — Unsplash by Franco Debartolo, custom closet
+Do not revert to earlier generic interior photos or reuse hero image for service cards.
 
-## Imagery
-The website uses illustrative Unsplash photography, not VIN Kitchen completed works. The external images have not been verified visually in a browser; replace them with real project photography when available. Hero image is a kitchen photograph from images.unsplash.com, not a general interior image.
+Run `python3 scripts/check_service_images.py` before future image changes.
 
 ## Domain
-The desired host `vinkitchen.cabinetosai.com` is **not configured yet**. Cloudflare connector returned invalid token. DNS and Pages custom domain changes must be made together in a narrowly scoped update once authentication works, leaving CabinetOS itself unchanged.
+Desired: `vinkitchen.cabinetosai.com` not currently configured; Cloudflare connection previously returned Invalid access token. Do not modify other CabinetOS DNS records.
