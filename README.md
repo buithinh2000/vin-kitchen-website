@@ -19,6 +19,6 @@ Do not reintroduce mailto/native email app links or automatic form claims until 
 The 4 distinct service images are locked by `scripts/check_service_images.py`, retained unchanged in this update.
 
 ## Preview
-https://buithinh2000.github.io/vin-kitchen-website/
+https://vinkitchen.cabinetosai.com/
 
-Custom domain `vinkitchen.cabinetosai.com` remains pending due to Cloudflare auth issues. No DNS was modified.
+Custom domain `vinkitchen.cabinetosai.com` is active on GitHub Pages with HTTPS enforced due to Cloudflare auth issues. No DNS was modified.
